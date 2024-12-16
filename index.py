@@ -42,3 +42,53 @@ course = 'pyhton for beginners'
 
 # .find()
 # to find a given value or string in the str
+# .replace()
+#  to replace a given str into another
+
+
+# arithmetic operators
+# //, *, +, -, /, %, **
+
+# augumented assignment operator
+x = 10
+x = x + 3
+# or
+x += 3
+
+# the two are basically the same
+
+
+# comparison operators 
+x = 3 > 2
+print(x)
+
+# >
+# >=
+# <
+# <=
+# ==
+# !=
+
+
+# logical operators
+price = 25
+# and
+print(price > 10 and price < 30)
+# or
+print(price > 10 or price < 30)
+# not
+print(not price > 30)
+
+temp = 35
+if temp > 30:
+    print('its a hot day')
+elif temp < 10:
+    print('its an nice day')
+print('done')    
+
+
+# while loops
+i = 1
+while i <= 5_100:
+    print(i * 'tomi')
+    i += 1
