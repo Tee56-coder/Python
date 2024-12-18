@@ -87,8 +87,42 @@ elif temp < 10:
 print('done')    
 
 
-# while loops
+# while loops 
 i = 1
 while i <= 5_100:
-    print(i * 'tomi')
+    # print(i * 'tomi')
     i += 1
+
+
+names = ['john', 'bob', 'tomi', 'mom', 'dad']
+names[0] = 'jon'
+print(names[-1:3])
+
+
+# lists
+numbers = [1, 2, 3, 4, 5]
+numbers.insert(0, -1)
+print(numbers)
+
+# insert: to add items to the object
+# append
+# remove basically to remove
+# clear
+# in to check if a number is in our list
+# len
+
+ 
+#  for loops
+numbers = [1, 2, 3, 4, 5]
+# for item in numbers:
+#     print (item)
+
+# range
+number = range(5)
+print(number)
+
+for item in number:
+    print(item)
+
+# tuples
+num = (9, 9 ,8)
